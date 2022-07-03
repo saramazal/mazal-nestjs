@@ -7,14 +7,7 @@ import { TypeOrmModule } from '@nestjs/typeorm'
     imports: [
         TasksModule,
         TypeOrmModule.forRoot({
-            type: 'postgres',
-            host: 'localhost',
-            port: 5432,
-            username: 'postgres',
-            password: 'mazaldata45',
-            database: 'task-management',
-            autoLoadEntities: true,
-            synchronize: true,
+           
         }),
     ],
 
